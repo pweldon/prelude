@@ -1,6 +1,6 @@
 ;;; prelude-modules.el --- A listing of modules to load on startup
 ;;
-;; Copyright © 2011-2023 Bozhidar Batsov
+;; Copyright © 2011-2025 Bozhidar Batsov
 ;;
 ;; Author: Bozhidar Batsov <bozhidar@batsov.com>
 ;; URL: https://github.com/bbatsov/prelude
@@ -86,14 +86,14 @@
 ;; (require 'prelude-perl)
 ;; (require 'prelude-python)
 ;; (require 'prelude-racket)
-;; (require 'prelude-ruby)
+(require 'prelude-ruby)
 ;; (require 'prelude-rust)
 ;; (require 'prelude-scala)
 ;; (require 'prelude-scheme)
 (require 'prelude-shell)
-;; (require 'prelude-scss)
+(require 'prelude-scss)
 ;; (require 'prelude-ts)
-(require 'prelude-web) ;; Emacs mode for web templates
+;; (require 'prelude-web) ;; Emacs mode for web templates
 (require 'prelude-xml)
 (require 'prelude-yaml)
 
